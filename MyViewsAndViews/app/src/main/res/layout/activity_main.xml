@@ -35,6 +35,7 @@
                 android:layout_gravity="bottom" />
         </FrameLayout>
         <TextView
+            style="@style/TextContent.Black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="32sp"
@@ -45,6 +46,7 @@
             android:layout_marginBottom="8dp"
             android:textColor="@android:color/black"/>
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/stock_hanya_5_buah"
@@ -53,6 +55,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"/>
         <TextView
+            style="@style/TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/content_text"
@@ -62,6 +65,7 @@
             android:lineSpacingMultiplier="1"
             android:textColor="@android:color/black"/>
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/spesifikasi"
@@ -80,12 +84,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_marginRight="16dp"
                     android:text="@string/display"/>
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -98,12 +104,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_marginRight="16dp"
                     android:text="@string/size"/>
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -116,12 +124,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <TextView
+                    style="@style/TextSpec.Field"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_marginRight="16dp"
                     android:text="@string/battery"/>
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
@@ -131,6 +141,7 @@
             </TableRow>
         </TableLayout>
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/dijual_oleh"
@@ -152,6 +163,7 @@
                 android:id="@+id/profile_image"
                 android:layout_marginRight="16dp"/>
             <TextView
+                style="@style/TextContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/profile_image"
@@ -160,11 +172,7 @@
                 android:layout_centerVertical="true"/>
         </RelativeLayout>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/beli"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"/>
+            style="@style/ButtonGeneral"/>
     </LinearLayout>
 </ScrollView>
